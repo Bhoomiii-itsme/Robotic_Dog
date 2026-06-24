@@ -2,7 +2,7 @@
 #include <Adafruit_PWMServoDriver.h>
 
 // Initialize the driver with your specific static address 0x60
-Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x60);
+Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x40);
 
 // PCA9685 standard servo settings (adjust if your servos stretch/buzz)
 #define SERVOMIN  150 // Minimum pulse length count (0 degrees)
