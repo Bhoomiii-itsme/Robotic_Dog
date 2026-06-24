@@ -2,7 +2,7 @@
 #include <Adafruit_PWMServoDriver.h>
 
 // Initialize the driver with your specific static address 0x60
-Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x60);
+Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x40);
 
 #define SERVOMIN  150 // Minimum pulse length count (0 degrees)
 #define SERVOMAX  600 // Maximum pulse length count (180 degrees)
